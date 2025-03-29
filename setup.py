@@ -11,7 +11,7 @@ setup(
     long_description_content_type="text/markdown",
     url="https://github.com/incubadoradepollos/HexArchOdooProduct.git",
     install_requires=[
-        "hexarch_core @ git+https://github.com/incubadoradepollos/HexArchCoreProduct.git"
+        "hexarch_product_core @ git+https://github.com/incubadoradepollos/HexArchCoreProduct.git"
     ],
    classifiers=[
         "Programming Language :: Python :: 3",
