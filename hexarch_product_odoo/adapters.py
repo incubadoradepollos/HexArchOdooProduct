@@ -1,8 +1,13 @@
+""" Adaptador de productos para odoo ecommerce.
+
+"""
 import xmlrpc.client
 
 # from exceptions import ProductCreateException
 from hexarch_product_core.models import CoreProduct
 from hexarch_product_core.interfaces import IProductAdapter
+
+
 
 # Adaptador 
 class OdooProductAdapter(IProductAdapter):
