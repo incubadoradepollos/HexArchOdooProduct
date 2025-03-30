@@ -4,7 +4,7 @@ import xmlrpc.client
 from hexarch_product_core.models import CoreProduct
 from hexarch_product_core.interfaces import IProductAdapter
 
-
+# Adaptador 
 class OdooProductAdapter(IProductAdapter):
     def __init__(self, url_odoo: str, db_odoo: str, user_odoo:str, password_odoo:str):
         # Autenticación
