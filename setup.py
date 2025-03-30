@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="hexarch_product_odoo",
-    version="0.1.1",
+    version="0.0.1",
     packages=find_packages(),
     author="Jose Manuel Herrera Saenz",
     author_email="incubadoradepollos@gmail.com",
